@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 // здесь у нас происходит импорт пакетов и определяется порт нашего сервера
 const app = express();
